@@ -1,0 +1,144 @@
+body {
+	text-align: center;
+	background-image: url("wzorek.png");
+	font-family: "Trebuchet MS";
+}
+
+#calosc {
+	position: absolute;
+	width: 1000px;
+	height: 300px;
+	left: calc(50% - 500px);
+}
+
+#naglowek {
+	position: absolute;
+	width: 840px;
+	padding: 80px;
+	background-image: url("ksiazki.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	top: 0;
+}
+
+#naglowek h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	position: absolute;
+	top: 197px;
+	width: 200px;
+	height: 300px;
+	background-color: #2a2927;
+}
+
+#menu a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#menu a:hover {
+	background-color: #543010;
+}
+
+#tresc a {
+	color: black;
+	text-decoration: none;
+}
+
+#tresc a:hover {
+	color: #3fa34f;
+}
+
+#tresc {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	background-color: #4e4e4e;
+	top: 197px;
+	left: 200px;
+	color: white;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+table {
+	position: relative;
+	top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: white;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	color: black;
+}
+
+input {
+	text-align: center;
+}
+
+option {
+	text-align: center;
+	text-align-last: center;
+}
+
+select {
+	text-align: center;
+	text-align-last: center;
+}
+
+#tabela_tytul {
+	width: 25%;
+}
+
+#tabela_rok {
+	width: 15%;
+}
+
+#tabela_autor {
+	width: 30%;
+}
+
+#tabela_wyp {
+	width: 30%;
+}
+
+#tresc #naglowek_autor {
+	margin: 25px 0 0 0;
+}
+
+#tresc #naglowek_ksiazka {
+	margin: 15px 0 0 0;
+}
+
+button {
+	position: relative;
+	background-color: #4e4e4e;
+	border-color: white;
+	color: white;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+
+#zapis {
+	top: 20px;
+}
+	
+
+#stopka {
+	position: absolute;
+	width: 920px;
+	background-color: #393939;
+	padding: 40px;
+	color: white;
+	top: 497px;
+}
